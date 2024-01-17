@@ -9,8 +9,8 @@ import NavLinks from "../functional_Components/NavLinks/NavLinks";
 function Navbar() {
   return (
     <>
-      <div className="w-screen h-full md:h-[200px] bg-white shadow-lg">
-        <div className="px-2 py-10 md:px-[4%] lg:px-[4%] flex flex-col justify-center items-center w-full h-full">
+      <div className="w-full h-full md:h-[200px] bg-white shadow-lg">
+        <div className=" py-5 md:px-[4%] lg:px-[4%] flex flex-col justify-center items-center w-full h-full">
           <div  className=" md:flex justify-between md:max-w-[1248px] gap-16 mb-6">
             <div className="flex">
               <div className="w-7 md:hidden lg:hidden mr-1">

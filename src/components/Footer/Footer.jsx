@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <footer className="bg-white dark:bg-green-300">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div className=" w-full px-5 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link to={"/"} className="flex items-center">
