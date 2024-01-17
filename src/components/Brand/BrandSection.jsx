@@ -36,7 +36,7 @@ function BrandSection() {
             <div className="w-[250px] h-full">
               <Link>
                 <img
-                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514926/Ghana%20Rice/Rice%20brands/Yaa-Babie-rice_y3eliq.jpg"
+                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514930/Ghana%20Rice/Rice%20brands/Aduanehene-perfume-rice_fatlbe.jpg"
                   alt=""
                   className="w-full h-full object-contain"
                 />
@@ -45,7 +45,7 @@ function BrandSection() {
             <div className="w-[250px] h-full">
               <Link>
                 <img
-                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514930/Ghana%20Rice/Rice%20brands/Aduanehene-perfume-rice_fatlbe.jpg"
+                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514922/Ghana%20Rice/Rice%20brands/Mr-Rabbit-Jasmine-Rice_bigse8.jpg"
                   alt=""
                   className="w-full h-full object-contain"
                 />
