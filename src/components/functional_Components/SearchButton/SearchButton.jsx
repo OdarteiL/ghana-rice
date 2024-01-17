@@ -1,9 +1,9 @@
 function SearchButton() {
   return (
     <>
-      <div className="font-sans text-black flex items-center justify-center md:mb-5">
-        <div className="border rounded flex">
-          <input type="text" className="w-[350px]  md:w-[500px] px-4 py-2" placeholder="Search..." />
+      <div className="w-full font-sans text-black flex items-center justify-center md:mb-5">
+        <div className="border rounded flex w-full md:w-full">
+          <input type="text" className="w-full md:w-full px-4 py-2" placeholder="Search..." />
           <button className="flex items-center justify-center px-4 border-l bg-[#FFD700]">
             <svg
               className="h-4 w-4 text-grey-dark"

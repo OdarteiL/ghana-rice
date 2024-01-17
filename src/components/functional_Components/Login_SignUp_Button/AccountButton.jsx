@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function AccountButton() {
   return (
     <>
-      <div className="flex gap-1 absolute top-5 left-[327px]">
+      <div className="flex gap-1 absolute top-5 right-3">
         <div>
           <Link to={"/user-account"}>
             <img

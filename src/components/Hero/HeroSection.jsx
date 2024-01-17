@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom"
-import ProductsPage from "../../pages/Products/ProductsPage"
 
 function HeroSection() {
   return (
-    <div className="ml-[60px] absolute top-[230px] md:absolute md:top-[300px] md:ml-[150px] font-bold">
+    <div className="ml-[60px] absolute top-[190px] md:absolute md:top-[300px] md:ml-[150px] font-bold">
         <h1 className="text-white shadow-2xl text-[16px] top-5 md:text-[40px] md:shadow-lg">
             Welcome to <br /> Ghana's No. 1 <br /> Shopping Center
         </h1>
