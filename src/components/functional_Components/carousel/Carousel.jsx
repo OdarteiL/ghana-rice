@@ -6,12 +6,10 @@ function Carousel() {
   const slides = [
     "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515854/Ghana%20Rice/carousel/rice-arm_amyykz.jpg",
     "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515765/Ghana%20Rice/carousel/rice-spoon_d3gdkh.jpg",
-    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515765/Ghana%20Rice/carousel/rice-spoon_d3gdkh.jpg",
-    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515765/Ghana%20Rice/carousel/rice-spoon_d3gdkh.jpg",
-    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515765/Ghana%20Rice/carousel/rice-spoon_d3gdkh.jpg",
+    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515813/Ghana%20Rice/carousel/rice-farm_rnwhnv.jpg",
+    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514885/Ghana%20Rice/carousel/rice-bowl_tbz8ap.jpg",
+    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515889/Ghana%20Rice/carousel/jollof_gzij9v.jpg",
   ];
-
-  console.log(slides);
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
