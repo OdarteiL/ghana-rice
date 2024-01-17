@@ -47,7 +47,7 @@ function Carousel() {
     <>
       <div className="w-full h-[200px] md:h-[500px] relative group mb-24">
         <div
-          style={{ backgroundImage: slides[currentIndex] }}
+          style={{ backgroundImage: `url(${slides[currentIndex]})` }}
           className="w-full h-full bg-center bg-cover duration-500"
         ></div>
         {/* left arrow */}
