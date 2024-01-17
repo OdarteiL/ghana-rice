@@ -1,8 +1,3 @@
-import brand1 from "../../assets/images/Rice-brands/Aduanehene-perfume-rice.jpg";
-import brand2 from "../../assets/images/Rice-brands/Copa-Jasmine-Rice.jpg";
-import brand3 from "../../assets/images/Rice-brands/Champion-Long-grain-rice.jpg";
-import brand4 from "../../assets/images/Rice-brands/Mr-Rabbit-Jasmine-Rice.jpg";
-import brand5 from "../../assets/images/Rice-brands/Edwumawura-rice.jpg";
 import { Link } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -41,7 +36,7 @@ function BrandSection() {
             <div className="w-[250px] h-full">
               <Link>
                 <img
-                  src={brand1}
+                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514926/Ghana%20Rice/Rice%20brands/Yaa-Babie-rice_y3eliq.jpg"
                   alt=""
                   className="w-full h-full object-contain"
                 />
@@ -50,7 +45,7 @@ function BrandSection() {
             <div className="w-[250px] h-full">
               <Link>
                 <img
-                  src={brand2}
+                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514930/Ghana%20Rice/Rice%20brands/Aduanehene-perfume-rice_fatlbe.jpg"
                   alt=""
                   className="w-full h-full object-contain"
                 />
@@ -59,7 +54,7 @@ function BrandSection() {
             <div className="w-[250px] h-full">
               <Link>
                 <img
-                  src={brand4}
+                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514924/Ghana%20Rice/Rice%20brands/Edwumawura-rice_zrpldf.jpg"
                   alt=""
                   className="w-full h-full object-contain"
                 />
@@ -68,7 +63,7 @@ function BrandSection() {
             <div className="w-[250px] h-full">
               <Link>
                 <img
-                  src={brand3}
+                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514924/Ghana%20Rice/Rice%20brands/Royal-Farmers-Rice_jj5b6z.jpg"
                   alt=""
                   className="w-full h-full object-contain"
                 />
@@ -77,7 +72,7 @@ function BrandSection() {
             <div className="w-[250px] h-full">
               <Link>
                 <img
-                  src={brand5}
+                  src="https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705514921/Ghana%20Rice/Rice%20brands/Champion-Long-grain-rice_p0swzp.jpg"
                   alt=""
                   className="w-full h-full object-contain"
                 />

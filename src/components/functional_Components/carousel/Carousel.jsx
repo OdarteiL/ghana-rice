@@ -1,19 +1,14 @@
-import rice from "../../../assets/images/carousel/jollof.jpg";
-import bali from "../../../assets/images/carousel/rice-spoon.jpg";
-import rice1 from "../../../assets/images/carousel/rice-arm.jpg";
-import rice2 from "../../../assets/images/carousel/rice-farm.jpg";
-import rice3 from "../../../assets/images/carousel/rice-bowl.jpg";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import { useEffect, useState } from "react";
 
 function Carousel() {
   const slides = [
-    `url(${rice})`,
-    `url(${bali})`,
-    `url(${rice1})`,
-    `url(${rice2})`,
-    `url(${rice3})`,
+    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515854/Ghana%20Rice/carousel/rice-arm_amyykz.jpg",
+    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515765/Ghana%20Rice/carousel/rice-spoon_d3gdkh.jpg",
+    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515765/Ghana%20Rice/carousel/rice-spoon_d3gdkh.jpg",
+    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515765/Ghana%20Rice/carousel/rice-spoon_d3gdkh.jpg",
+    "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515765/Ghana%20Rice/carousel/rice-spoon_d3gdkh.jpg",
   ];
 
   console.log(slides);
