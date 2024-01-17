@@ -4,7 +4,7 @@ function CategorySection() {
   return (
     <>
       <div className="w-full md:px-[15%] md:font-semibold">
-        <h1 className="text-[30px] mb-6">
+        <h1 className="text-[16px] font-bold px-5 md:text-[30px] mb-6">
           CATEGORIES
           <hr />
         </h1>
