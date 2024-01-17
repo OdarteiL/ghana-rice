@@ -26,7 +26,7 @@ function BrandSection() {
   return (
     <>
       <div className="w-full md:px-[15%] md:font-semibold">
-        <h1 className="text-[30px] mb-6">
+        <h1 className="text-[12px] font-bold px-5 md:text-[30px] mb-6">
           BRANDS
           <hr />
         </h1>
