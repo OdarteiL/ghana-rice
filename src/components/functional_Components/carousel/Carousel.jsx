@@ -1,6 +1,6 @@
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 function Carousel() {
   const slides = [
@@ -11,6 +11,7 @@ function Carousel() {
     "https://res.cloudinary.com/dlcqoiyb1/image/upload/v1705515889/Ghana%20Rice/carousel/jollof_gzij9v.jpg",
   ];
 
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -20,11 +21,11 @@ function Carousel() {
   };
 
   
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     const isLastSlide = currentIndex === slides.length - 1;
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
-  };
+  }, [currentIndex, slides.length]);
 
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
