@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function NavLinks() {
   return (
     <>
-      <div className="flex justify-center items-center gap-8">
+      <div className="flex justify-center items-center gap-8 mx-auto">
         <div>
           <Link to={"#"}>Organic Rice</Link>
         </div>
