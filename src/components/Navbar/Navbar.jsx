@@ -6,6 +6,7 @@ import AccountButton from "../functional_Components/Login_SignUp_Button/AccountB
 import menu from "../../assets/images/menu.png";
 import NavLinks from "../functional_Components/NavLinks/NavLinks";
 
+
 function Navbar() {
   return (
     <>
@@ -33,7 +34,7 @@ function Navbar() {
               </div>
               <div>
                 <Link>
-                  <CartButton />
+                  <CartButton /> 
                 </Link>
               </div>
             </div>

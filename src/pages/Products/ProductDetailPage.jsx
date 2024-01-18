@@ -1,8 +1,16 @@
 import { Link, useParams } from "react-router-dom";
 import products from "../../components/data/ProductData";
 import RelatedProducts from "../../components/RelatedProducts/RelatedProducts";
+import { useDispatch } from "react-redux"
+import { addToCart } from "../../redux/cartSlice"
+
 
 const ProductDetailPage = () => {
+
+  const dispatch = useDispatch()
+
+ 
+
   const { productId } = useParams();
   const product = products.find(
     (product) => product.id === parseInt(productId)
@@ -24,7 +32,7 @@ const ProductDetailPage = () => {
               </div>
               <div className="flex -mx-2 mb-4">
                 <div className="w-1/2 px-2">
-                  <button className="w-full bg-green-900 light:bg-green-600 text-white py-2 px-4 rounded-full font-bold hover:bg-green-800 light:hover:bg-green-700">
+                  <button className="w-full bg-green-900 light:bg-green-600 text-white py-2 px-4 rounded-full font-bold hover:bg-green-800 light:hover:bg-green-700" onClick={() => dispatch(addToCart({name, imageSrc}))}>
                     Add to Cart
                   </button>
                 </div>

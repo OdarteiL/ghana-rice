@@ -35,7 +35,7 @@ function CategorySection() {
         </h1>
 
         <div >
-          <Carousel responsive={responsive} className="w-full h-[250px] mb-[50px]">
+          <Carousel responsive={responsive} className="w-full h-[250px] mb-[50px] gap-10">
             <div className="w-[250px] h-full">
               <Link>
                 <img
