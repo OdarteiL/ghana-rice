@@ -12,6 +12,7 @@ import ErrorPage from "../pages/404/ErrorPage";
 import UserAccountPage from "../pages/Account/UserAccountPage";
 import ProductsPage from "../pages/Products/ProductsPage";
 import ProductDetailPage from "../pages/Products/ProductDetailPage";
+import CheckoutPage from "../pages/Checkout/CheckoutPage";
 
 const AppRouter = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ const AppRouter = createBrowserRouter(
         <Route index element={<HomePage />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/error" element={<ErrorPage />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/user-account" element={<UserAccountPage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/products/:productId" element={<ProductDetailPage />} />
