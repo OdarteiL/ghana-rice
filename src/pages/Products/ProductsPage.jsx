@@ -15,7 +15,7 @@ function ProductsPage() {
         <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <Link key={product.id} to={`/products/${product.id}`} className="group">
-              <div className="h-80 w-72 object-contain rounded-t-xl rounded-lg bg-green-200">
+              <div className="h-40 w-36 md:h-80 md:w-72 object-contain rounded-t-xl rounded-lg bg-green-200">
                 <img
                   src={product.imageSrc}
                   alt={product.imageAlt}
@@ -24,13 +24,10 @@ function ProductsPage() {
               </div>
               <div className="px-4 py-3 w-72">
                 <span className="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                <p className="text-lg font-bold text-black truncate block capitalize">{product.name}</p>
+                <p className="text-[10px] md:text-lg font-bold text-black truncate capitalize">{product.name}</p>
                 <div className="flex items-center">
                     <p className="text-lg font-semibold text-black cursor-auto my-3">&#8373; {product.price}</p>
-                    <del>
-                        <p className="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                    </del>
-                    <div className="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    <div className="ml-10 md:ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                             fill="currentColor" className="bi bi-bag-plus" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
